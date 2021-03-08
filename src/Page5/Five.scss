@@ -1,0 +1,40 @@
+.text-card {
+  margin-top: 3rem;
+  color: white;
+}
+
+.Day {
+  text-align: center;
+  img {
+    margin-top: 3rem;
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media (max-width: 990px) {
+  .text-card {
+    margin-top: 3rem;
+    color: white;
+  }
+
+  .Day {
+    text-align: center;
+    img {
+      margin-top: 3rem;
+      width: 30%;
+      height: 30%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .Day {
+    text-align: center;
+    img {
+      margin-top: 5rem;
+      width: 30%;
+      height: 30%;
+    }
+  }
+}

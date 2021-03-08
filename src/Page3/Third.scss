@@ -1,0 +1,108 @@
+.page-4 {
+  justify-content: center;
+}
+
+.logo4 {
+  width: 60%;
+  height: 20%;
+  justify-content: center;
+}
+
+.logo4 img {
+  width: 60%;
+  height: auto;
+}
+
+.conCenter4 {
+  margin-top: 5%;
+  height: 98%;
+  width: 85%;
+  background-color: radial-gradient(rgb(149, 45, 214), rgb(118, 0, 197));
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.selectedP {
+  height: 80%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pTxt {
+  font-weight: 700;
+  color: white;
+  font-family: bol;
+  height: 5%;
+  margin: 0;
+}
+
+.pCon {
+  height: 95%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  flex-direction: column;
+  align-items: center;
+  overflow: -moz-scrollbars-none;
+}
+
+.pCon::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.pCon div[id^="poem"] {
+  background-color: rgb(187, 192, 224);
+  width: 100%;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border-radius: 1vh;
+  align-items: center;
+  padding: 2vh;
+  font-family: bol;
+  font-size: 0.95rem;
+  height: 25% !important;
+}
+
+#poem8 {
+  margin-bottom: 17vh !important;
+}
+
+.nextCon {
+  position: absolute;
+  bottom: 0;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 2;
+}
+
+#nextPoem {
+  width: 100px;
+  height: auto;
+}
+
+.activeP {
+  background-color: rgb(234, 234, 244) !important;
+  border: 2px solid rgb(236, 44, 102);
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 1080px) {
+  .pTxt {
+    font-size: 2vw;
+  }
+
+  .pCon div[id^="poem"] {
+    padding-left: 2vh;
+    font-size: 1.2rem;
+  }
+
+  #nextPoem {
+    width: 100px;
+    height: auto;
+  }
+}

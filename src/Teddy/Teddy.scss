@@ -1,0 +1,129 @@
+.topleft {
+  position: absolute;
+  padding-top: 2rem;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.Propose {
+  text-align: center;
+  img {
+    width: 150px;
+    height: auto;
+    padding-top: 2rem;
+  }
+}
+
+.text {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+  color: white;
+}
+
+.Gallery {
+  text-align: center;
+  img {
+    padding-top: 2rem;
+    width: 35%;
+    height: 100%;
+  }
+}
+
+.sub {
+  text-align: center;
+  img {
+    padding-top: 2rem;
+    width: 20%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 990px) {
+  .sub {
+    text-align: center;
+    img {
+      padding-top: 2rem;
+      width: 150px;
+    }
+  }
+
+  .text {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 4rem;
+    color: white;
+  }
+
+  .Gallery {
+    text-align: center;
+    img {
+      padding-top: 2rem;
+      width: 60%;
+      height: 100%;
+    }
+  }
+  .sub {
+    text-align: center;
+    img {
+      padding-top: 1rem;
+      width: 40%;
+      height: 100%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .sub {
+    text-align: center;
+    img {
+      padding-top: 2rem;
+      width: 50px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .topleft {
+    position: absolute;
+    padding-top: 2rem;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .Propose {
+    text-align: center;
+    img {
+      width: 150px;
+      height: auto;
+      padding-top: 2rem;
+    }
+  }
+
+  .text {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 4rem;
+    color: white;
+  }
+
+  .Gallery {
+    text-align: center;
+    img {
+      padding-top: 2rem;
+      width: 80%;
+      height: 100%;
+    }
+  }
+
+  .sub {
+    text-align: center;
+    img {
+      padding-top: 1rem;
+      width: 50%;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.page-5 {
+  justify-content: center;
+}
+
+.conCenter5 {
+  height: 35%;
+  width: 80vw;
+  justify-content: center;
+  border-radius: 2vh;
+}
+
+.pads5 {
+  height: 80%;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: bol;
+  font-size: 2rem;
+  margin-top: 8rem;
+}
+
+#canvasName {
+  width: 90%;
+  color: black;
+  font-family: bol;
+}
+
+.Next {
+  img {
+    width: 180px;
+    height: 100%;
+  }
+}
+
+#canvasNext {
+  width: 60vw;
+}
+
+.getName {
+  margin-bottom: 5%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .sharetext {
+    font-size: 3vw;
+  }
+
+  #canvasNext {
+    width: 45vw;
+  }
+}
